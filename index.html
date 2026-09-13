@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jugemos con el Michi</title>
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Shantell+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <img class="tamagotchi" src="Recursos/tamagotchi1.svg" alt="tamagotchi">
+
+    <div class="puntaje">
+        <div class="puntajeVos">
+            <p class="vos">vos</p>
+            <span class="botonPuntajeVos"></span>
+        </div>
+        <div class="puntajeMichi">
+            <span class="botonPuntajeMichi"></span>
+            <p class="michi">michi</p>
+        </div>
+    </div>
+
+    <div class="pantalla">
+    </div>
+
+    <div class="iconos">
+        <img src="Recursos/papelHumano.svg" alt="papelHumano">
+        <img src="Recursos/piedraHumano.svg" alt="piedraHumano">
+        <img src="Recursos/tijeraHumano.svg" alt="tijeraHumano">
+        <div class="iconosMichi">
+            <img src="Recursos/papelMichi.svg" alt="papelMichi">
+            <img src="Recursos/piedraMichi.svg" alt="piedraMichi">
+            <img src="Recursos/tijeraMichi.svg" alt="tijeraMichi">
+        </div>
+    </div>
+
+    <div class="botones">
+        <div class="botonPiedra">
+            <button id="piedra" class="boton"></button>
+            <p class="piedra">piedra</p>
+        </div>
+
+        <div class="papel-tijera">
+            <div class="botonPapel">
+                <button id="papel" class="boton"></button>
+                <p class="papel">papel</p>
+            </div>
+            <div class="botonTijera">
+                <button id="tijera" class="boton"></button>
+                <p class="tijera">tijera</p>
+            </div>
+        </div>
+
+        <div class="botonReset">
+            <button id="reset" class="boton"></button>
+            <p class="reset">reset</p>
+        </div>
+
+    </div>
+    <script src="java.js"></script>
+</body>
+
+</html>
